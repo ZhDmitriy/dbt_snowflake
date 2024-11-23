@@ -8,3 +8,5 @@
 
 Где `C:\Users\Shhhn\PycharmProjects\dbt_course` - папка к .yml вашего проекта, а `C:\Users\Shhhn\.dbt` - папка к profiles.yml вашего проекта.
 
+Пример настройки для базы данных Snowflake можно найти по адресу: https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup 
+
