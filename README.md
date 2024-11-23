@@ -30,7 +30,7 @@ There are 2 unused configuration paths:
 При работе со Snowflake, создайте новую базу данных и переопределите profiles.yml под созданную базу данных следущим образом: 
 ![image](https://github.com/user-attachments/assets/1bcd56a4-6bbe-4ae8-b570-9ab76df7010e)
 
-Запустите команду `dbt-run` или `dbt-compile`, чтобы откомпилировать созданные модели и получите следующий результат в консоли: 
+Запустите команду `dbt run` или `dbt compile`, чтобы откомпилировать созданные модели и получите следующий результат в консоли: 
 ![image](https://github.com/user-attachments/assets/81d11973-0078-4959-ad78-4d19a99b3212)
 
 Посмотрим результат в Snowflake базе данных: 
