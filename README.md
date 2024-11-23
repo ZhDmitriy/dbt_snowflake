@@ -9,4 +9,8 @@
 Где `C:\Users\Shhhn\PycharmProjects\dbt_course` - папка к .yml вашего проекта, а `C:\Users\Shhhn\.dbt` - папка к profiles.yml вашего проекта.
 
 Пример настройки для базы данных Snowflake можно найти по адресу: https://docs.getdbt.com/docs/core/connect-data-platform/snowflake-setup 
+4. Если git не установлен на вашем компьютере и/или не установлен в PyCharm - сделайте это. 
+5. После запустите команду `dbt debug` с настройками, как указано в пункте 3. После чего, у вас должен быть следующий результат:  
+![image](https://github.com/user-attachments/assets/dcb8bfd6-21f6-4683-9d26-4c8209b676ec)
+
 
