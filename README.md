@@ -14,3 +14,4 @@
 5. После запустите команду `dbt debug` с настройками, как указано в пункте 3. После чего, у вас должен быть следующий результат:  
 ![image](https://github.com/user-attachments/assets/dcb8bfd6-21f6-4683-9d26-4c8209b676ec)
 
+Если плохо знакомы с dbt: https://docs.google.com/document/d/1U-vwwzviZrHjw5umz0RkAf3y2djZUPSu82lK96L6TpU/edit?usp=sharing 
