@@ -7,7 +7,7 @@ snowflake-db:
 
       # User/password auth
       user: DMZHDANOV
-      password: Snow45rw
+      password: PASSWORD (SECRET)
 
       role: ACCOUNTADMIN
       database: TEST
