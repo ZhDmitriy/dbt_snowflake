@@ -1,0 +1,24 @@
+snowflake-db:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: ix82040.europe-west3.gcp
+
+      # User/password auth
+      user: DMZHDANOV
+      password: Snow45rw
+
+      role: ACCOUNTADMIN
+      database: TEST
+      warehouse: COMPUTE_WH
+      schema: PUBLIC
+      threads: 10
+      client_session_keep_alive: False
+
+      # optional
+      connect_retries: 0 # default 0
+      connect_timeout: 10 # default: 10
+      retry_on_database_errors: False # default: false
+      retry_all: False  # default: false
+      reuse_connections: True # default: True if client_session_keep_alive is False, otherwise None
