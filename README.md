@@ -15,3 +15,28 @@
 ![image](https://github.com/user-attachments/assets/dcb8bfd6-21f6-4683-9d26-4c8209b676ec)
 
 Если плохо знакомы с dbt: https://docs.google.com/document/d/1U-vwwzviZrHjw5umz0RkAf3y2djZUPSu82lK96L6TpU/edit?usp=sharing 
+
+Возможные проблемы при запуске: 
+
+There are 2 unused configuration paths:
+- models.dbt_project.staging
+
+Решение: 
+1. Используйте правильную структуру docker-compose для dbt проекта
+2. schema.yml вынесите в папку models на уровне папок с моделями:
+
+![image](https://github.com/user-attachments/assets/737c8b91-6fd0-4287-906b-9ab8629b25e5)
+
+При работе со Snowflake, создайте новую базу данных и переопределите profiles.yml под созданную базу данных следущим образом: 
+![image](https://github.com/user-attachments/assets/1bcd56a4-6bbe-4ae8-b570-9ab76df7010e)
+
+Запустите команду `dbt-run` или `dbt-compile`, чтобы откомпилировать созданные модели и получите следующий результат в консоли: 
+![image](https://github.com/user-attachments/assets/81d11973-0078-4959-ad78-4d19a99b3212)
+
+Посмотрим результат в Snowflake базе данных: 
+![image](https://github.com/user-attachments/assets/66fff06a-d27b-4c32-8e52-b412c88314b7)
+
+![image](https://github.com/user-attachments/assets/4a106d58-abe2-4390-b06d-4797ca409770)
+
+
+
