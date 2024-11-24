@@ -38,5 +38,14 @@ There are 2 unused configuration paths:
 
 ![image](https://github.com/user-attachments/assets/4a106d58-abe2-4390-b06d-4797ca409770)
 
+В schema.yml мы можем описывать источники, которые уже созданы внутри базы данных с которыми мы планируем работать: 
+![image](https://github.com/user-attachments/assets/91c970d7-cda3-4f53-a7fa-f515d54d1afa)
+
+А затем ссылать на них при создании модели: 
+![image](https://github.com/user-attachments/assets/48c490c5-14f9-4f40-a1d7-1e43b6ec1ebe)
+
+Результат выполнения операции: 
+![image](https://github.com/user-attachments/assets/18a734b8-573b-4779-926c-51163875f2b6)
+
 
 
