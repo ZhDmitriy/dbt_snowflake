@@ -47,5 +47,10 @@ There are 2 unused configuration paths:
 Результат выполнения операции: 
 ![image](https://github.com/user-attachments/assets/18a734b8-573b-4779-926c-51163875f2b6)
 
+# Инкрементальные модели в dbt 
+
+Создадим таблицу и заполним её тестовыми данными: 
+![image](https://github.com/user-attachments/assets/aa22e5dc-09d8-4fa8-9a19-a59109cb8507)
+
 
 
