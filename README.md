@@ -59,5 +59,13 @@ There are 2 unused configuration paths:
 4. Не передан флаг -full-refresh 
 ![image](https://github.com/user-attachments/assets/abb2adf0-fdd0-423a-99a5-52cd22de9a8a)
 
+После чего создадим инкремент: 
+![image](https://github.com/user-attachments/assets/fbfc801e-e741-44c9-a7f0-f3393d378caf)
+
+Обновим модель: 
+![image](https://github.com/user-attachments/assets/5b1c5da3-1a36-4299-be59-16c624d5d036)
+
+Теперь мосле dbt run мы должны получить только пересчет инкремента, а не всей таблицы: 
+![image](https://github.com/user-attachments/assets/b91aeb51-6391-456c-80d9-70ba584036f9)
 
 
