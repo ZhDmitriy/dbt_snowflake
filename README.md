@@ -50,7 +50,8 @@ There are 2 unused configuration paths:
 # Инкрементальные модели в dbt 
 
 Создадим таблицу и заполним её тестовыми данными: 
-![image](https://github.com/user-attachments/assets/aa22e5dc-09d8-4fa8-9a19-a59109cb8507)
+![image](https://github.com/user-attachments/assets/657af90d-fdc6-4381-aa2a-87170123e571)
+
 
 
 
