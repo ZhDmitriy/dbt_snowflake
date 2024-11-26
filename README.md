@@ -52,6 +52,12 @@ There are 2 unused configuration paths:
 Создадим таблицу и заполним её тестовыми данными: 
 ![image](https://github.com/user-attachments/assets/657af90d-fdc6-4381-aa2a-87170123e571)
 
+Выполним условия для создания инкрементальной модели: 
+1. У модели настроен параметр materialized='incremental'
+2. Модель уже существует (то есть для нее уже выполнялась команда dbt run)
+3. Таблица соответствующей модели уже существует в бд
+4. Не передан флаг -full-refresh 
+![image](https://github.com/user-attachments/assets/abb2adf0-fdd0-423a-99a5-52cd22de9a8a)
 
 
 
